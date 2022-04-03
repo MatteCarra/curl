@@ -22,6 +22,6 @@ xcuserdata/
 
 Carthage/
 
-Frameworks/OpenSSL.xcframework.zip
+Frameworks/curl.xcframework.zip
 *.tar.gz
 *.tar.gz.sha256
