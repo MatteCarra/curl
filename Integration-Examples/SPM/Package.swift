@@ -2,17 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "OpenSSL-test",
+    name: "curl-test",
     platforms: [
-        .macOS(.v10_12)
+        .iOS(.v9)
     ],
     dependencies: [
-        // .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", .branch("master")),
         .package(path: "../../")
     ],
     targets: [
         .target(
-            name: "OpenSSL-test",
-            dependencies: ["OpenSSL"])
+            name: "curl-test",
+            dependencies: ["curl"])
     ]
 )
